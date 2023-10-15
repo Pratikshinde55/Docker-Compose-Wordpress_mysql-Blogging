@@ -63,6 +63,7 @@ our three-tier architecture created with the help Of Docker-compose
 >>To Run Docker-compose file .. we used
    #docker-compose up -d
   we use detached because it helps us to run or launch container in background
+![Screenshot 2023-10-12 172026](https://github.com/Pratikshinde55/Docker-Compose/assets/145910708/946967b4-0412-4254-8dc0-92e30626ae3e)
 
 >> '#docker-compose ls' is command will tell us which file is used to lauch container
 >> '#docker-compose ps ' is command that give us info about running container from docker-compose file
