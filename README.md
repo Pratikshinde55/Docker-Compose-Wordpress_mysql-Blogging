@@ -74,3 +74,4 @@ our three-tier architecture created with the help Of Docker-compose
 To access this docker-compose setup -->>instance public IP+Port no.(Change EC2 instance inbound rule)
 This interface shows on google
 ![Screenshot 2023-10-12 172957](https://github.com/Pratikshinde55/Docker-Compose/assets/145910708/b5f72e92-639f-43d8-89e3-c9d6f42d7bed)
+
