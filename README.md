@@ -23,6 +23,7 @@ for docker-compose on google search standalone
 
 
 This is code written in yaml language:
+<br>
 services:
   db:
     image: mysql
@@ -50,6 +51,7 @@ services:
     - WORDPRESS_DB_USER=pratik
     - WORDPRESS_DB_PASSWORD=redhat
     - WORDPRESS_DB_NAME=blogdb
+</br>
 networks:
   psnet:
    driver: bridge
