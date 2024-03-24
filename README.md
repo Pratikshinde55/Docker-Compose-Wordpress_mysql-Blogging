@@ -1,4 +1,5 @@
-# Docker-Compose
+# Global Blogging Made Easy with Docker and WordPress
+
 
 Create EC2 instance
 
