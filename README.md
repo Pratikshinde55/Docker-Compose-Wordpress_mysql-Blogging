@@ -42,36 +42,36 @@ This is code written in yaml language:
 
 
 
-services:
-  db:
-    image: mysql
-    container_name: mydb1
-    networks:
-    - psnet
-    volumes:
-    - /data:/var/lib/mysql
-    environment:
-    - MYSQL_ROOT_PASSWORD=redhat
-    - MYSQL_DATABASE=blogdb
-    - MYSQL_USER=pratik
-    - MYSQL_PASSWORD=redhat
-   wp:
-    depends_on :
-    - db
-    image: wordpress
-    container_name: mywp1
-    networks:
-    - psnet
-    ports:
-      - 8080:80
-    environment:
-    - WORDPRESS_DB_HOST=mydb1
-    - WORDPRESS_DB_USER=pratik
-    - WORDPRESS_DB_PASSWORD=redhat
-    - WORDPRESS_DB_NAME=blogdb
-networks:
-  psnet:
-   driver: bridge
+    services:
+          db:
+          image: mysql
+          container_name: mydb1
+          networks:
+          - psnet
+          volumes:
+          - /data:/var/lib/mysql
+          environment:
+          - MYSQL_ROOT_PASSWORD=redhat
+          - MYSQL_DATABASE=blogdb
+          - MYSQL_USER=pratik
+          - MYSQL_PASSWORD=redhat
+    wp:
+         depends_on :
+         - db
+         image: wordpress
+         container_name: mywp1
+         networks:
+         - psnet
+         ports:
+         - 8080:80
+         environment:
+         - WORDPRESS_DB_HOST=mydb1
+         - WORDPRESS_DB_USER=pratik
+         - WORDPRESS_DB_PASSWORD=redhat
+         - WORDPRESS_DB_NAME=blogdb
+  networks:
+         psnet:
+         driver: bridge
 
    
 
