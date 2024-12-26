@@ -5,6 +5,12 @@ Global Blogging Made Easy with Docker and WordPress.
 
 I use AWS EC2 Instance(AMI- Amazon linux) as Operating System for Docker and then i Install docker-compose on it.
 
+- What is Three-tier Architecture:
+
+1. For Blogging Site I use "WordPress".
+2. For DataBase to the Wordpress I use "MySQL".
+3. For Network I use own customised "Docker network".
+
 ## Step: 1 [Install Docker & start Docker Service]
 Docker-comopse work on Docker Engine, So we need to install Docker & Start Docker Services
 
