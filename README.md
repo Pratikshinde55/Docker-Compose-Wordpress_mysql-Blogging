@@ -1,7 +1,7 @@
 # Global Blogging Made Easy with Docker and WordPress
 Create EC2 instance
 
-Install docker-compose :---
+## Step: 1 [Install docker-compose]
 
 Following steps for installation:
 
