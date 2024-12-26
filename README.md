@@ -35,7 +35,9 @@ Following command gives the downloaded docker-compose file executable permission
     chmod +x /usr/local/bin/docker-compose
 
 chmod: This is the command to change file permissions in Unix-like operating systems.
+
 +x: This option adds execute permissions to the file. It allows the user to run the file as a program.
+
 /usr/local/bin/docker-compose: This is the path to the docker-compose file.
 
 ![Screenshot 2023-10-12 150659](https://github.com/Pratikshinde55/Docker-Compose/assets/145910708/e007dc29-98d1-4ae7-9a3b-f5e2dea0fc9f)
