@@ -20,7 +20,7 @@ docker-compose.yml is standard file name for docker-compose file.
 
 - Following steps for installation:
 
-for docker-compose on google search standalone:
+For download docker-compose search on google "docker-compose standalone":
 
 docker-compose Standalone Install Link- [Docker-compose-download-link](https://docs.docker.com/compose/install/standalone/)
 
