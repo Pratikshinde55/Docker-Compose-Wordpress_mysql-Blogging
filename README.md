@@ -30,10 +30,9 @@ docker-compose download command:
 ![Screenshot 2023-10-12 150659](https://github.com/Pratikshinde55/Docker-Compose/assets/145910708/e007dc29-98d1-4ae7-9a3b-f5e2dea0fc9f)
 
 
- To check Docker-compse install or not--
+ To check Docker-compse install or not use command:
 
- 
-       #docker-compse version
+    docker-compse version
   
  create two directory one for mysql data base volume & other is for docker-compose code:--
  
