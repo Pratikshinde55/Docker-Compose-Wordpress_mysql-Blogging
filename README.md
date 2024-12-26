@@ -60,14 +60,22 @@ To Run Docker-compose file the command is:
  
 ![Screenshot 2023-10-12 172026](https://github.com/Pratikshinde55/Docker-Compose/assets/145910708/946967b4-0412-4254-8dc0-92e30626ae3e)
 
+Command will tell us which file is used to lauch container:
+     
+     docker-compose ls
 
-          #docker-compose ls' is command will tell us which file is used to lauch container
-          # docker-compose ps ' is command that give us info about running container from docker-compose file
-          #docker-compose logs' is command used to see logs of container.
+Command that give us info about running container from docker-compose file:
+
+     docker-compose ps 
+
+Command used to see logs of container:     
+     
+     docker-compose logs  
           
 ![Screenshot 2023-10-12 172518](https://github.com/Pratikshinde55/Docker-Compose/assets/145910708/35b58aac-fb58-4020-9030-6ae31f266511)
 
 
+Step: [Access Wordpress from Browser]
 To access this docker-compose setup -->>instance public IP+Port no.(Change EC2 instance inbound rule)
 
 This interface shows on google:-
