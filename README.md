@@ -1,6 +1,4 @@
 # Global Blogging Made Easy with Docker and WordPress
-
-
 Create EC2 instance
 
 Install docker-compose :---
@@ -11,8 +9,13 @@ Following steps for installation:
 
 Docker-comopse work on Docker engine , so we need to install docker & start docker services
 
-     a.#yum install docker
-     b. #systemctl start docker
+Install Docker Command:
+
+   yum install docker
+
+Start Docker service Command:
+
+   systemctl start docker
      
 for docker-compose on google search standalone:
 
