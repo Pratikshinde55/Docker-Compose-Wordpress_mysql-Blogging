@@ -20,10 +20,10 @@ docker-compose is used for automation, we create automation file by using yaml l
 
 for docker-compose on google search standalone:
 
+docker-compose Standalone Install Link- [Docker-compose-download-link](https://docs.docker.com/compose/install/standalone/)
+
 ![Screenshot 2023-10-12 152512](https://github.com/Pratikshinde55/Docker-Compose/assets/145910708/58760611-2f74-4641-8183-fe522db1f024)
      
-docker-compose standalone install Link- [Docker-compose-download-link](https://docs.docker.com/compose/install/standalone/)
-
 
     curl -SL https://github.com/docker/compose/releases/download/v2.20.3/docker-compose-linux-x86_64 -o /usr/local/bin/docker-compose
 
