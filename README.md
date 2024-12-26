@@ -61,13 +61,13 @@ To view docker-compose file:
 
 ![Screenshot 2023-10-12 171551](https://github.com/Pratikshinde55/Docker-Compose/assets/145910708/e644a6d9-fed6-4c49-b75e-15d49303a1a7)
 
-our Three-tier architecture created with the help Of Docker-compose 
-
 To Run Docker-compose file the command is:
 
      docker-compose up -d
           
- we use detached because it helps us to run or launch container in background
+ We use (-d) detached because it helps us to run or launch Container in background
+
+- Three-tier Architecture created with the help of Docker-compose  
  
 ![Screenshot 2023-10-12 172026](https://github.com/Pratikshinde55/Docker-Compose/assets/145910708/946967b4-0412-4254-8dc0-92e30626ae3e)
 
@@ -86,7 +86,7 @@ Command used to see logs of container:
 ![Screenshot 2023-10-12 172518](https://github.com/Pratikshinde55/Docker-Compose/assets/145910708/35b58aac-fb58-4020-9030-6ae31f266511)
 
 
-Step: [Access Wordpress from Browser]
+## Step:3- [Access Wordpress from Browser]
 To access this docker-compose setup -->>instance public IP+Port no.(Change EC2 instance inbound rule)
 
 This interface shows on google:-
