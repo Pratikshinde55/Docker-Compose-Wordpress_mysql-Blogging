@@ -18,10 +18,10 @@ docker-compose is used for automation, we create automation file by using yaml l
 
 - Following steps for installation:
 
-![Screenshot 2023-10-12 152512](https://github.com/Pratikshinde55/Docker-Compose/assets/145910708/58760611-2f74-4641-8183-fe522db1f024)
-     
 for docker-compose on google search standalone:
 
+![Screenshot 2023-10-12 152512](https://github.com/Pratikshinde55/Docker-Compose/assets/145910708/58760611-2f74-4641-8183-fe522db1f024)
+     
 docker-compose standalone install Link- [Docker-compose-download-link](https://docs.docker.com/compose/install/standalone/)
 
 
