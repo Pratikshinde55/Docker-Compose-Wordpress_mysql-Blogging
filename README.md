@@ -11,11 +11,11 @@ Docker-comopse work on Docker engine , so we need to install docker & start dock
 
 Install Docker Command:
 
-   yum install docker
+    yum install docker
 
 Start Docker service Command:
 
-   systemctl start docker
+    systemctl start docker
      
 for docker-compose on google search standalone:
 
