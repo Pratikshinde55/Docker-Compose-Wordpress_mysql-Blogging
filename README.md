@@ -49,13 +49,13 @@ chmod: This is the command to change file permissions in Unix-like operating sys
 
 
 ## Step:2- [docker-compose.yml automation file]
-Create two directory One for mysql data base volume & Second for docker-compose code:-
+Create two directories One for mysql data base volume & Second for docker-compose code:-
  
 ![Screenshot 2023-10-12 153358](https://github.com/Pratikshinde55/Docker-Compose/assets/145910708/391dcbe0-afc5-4863-b35e-0d9102d433d2)
 
 This is code written in yaml language: (docker-compose DSL is Yaml) 
 
- ![Screenshot 2023-10-12 171507](https://github.com/Pratikshinde55/Docker-Compose/assets/145910708/7f114fdf-977b-4157-ad34-78e93cb0c17f)
+![Screenshot 2023-10-12 171507](https://github.com/Pratikshinde55/Docker-Compose/assets/145910708/7f114fdf-977b-4157-ad34-78e93cb0c17f)
 
 To view docker-compose file:
 
@@ -89,7 +89,7 @@ Command used to see logs of container:
 ## Step:3- [Access Wordpress from Browser]
 To access this docker-compose setup -->>instance public IP+Port no.(Change EC2 instance inbound rule)
 
-This interface shows on google:-
+This interface shows on Google:-
 
 ![Screenshot 2023-10-12 172957](https://github.com/Pratikshinde55/Docker-Compose/assets/145910708/b5f72e92-639f-43d8-89e3-c9d6f42d7bed)
 
