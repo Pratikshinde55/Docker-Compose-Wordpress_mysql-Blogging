@@ -2,6 +2,8 @@
 Create EC2 instance
 
 ## Step: 1 [Install docker-compose]
+docker-compose is used for automation, we create automation file by using yaml language, docker-compose file must be in YAML language.
+
 - Docker-comopse work on Docker Engine, So we need to install Docker & Start Docker Services
 
 Install Docker Command:
@@ -33,15 +35,14 @@ docker-compose standalone install Link- [Docker-compose-download-link](https://d
  To check Docker-compse install or not use command:
 
     docker-compse version
-  
- create two directory one for mysql data base volume & other is for docker-compose code:--
+
+
+## Step:2- [docker-compose.yml automation file]
+Create two directory One for mysql data base volume & Second for docker-compose code:-
  
 ![Screenshot 2023-10-12 153358](https://github.com/Pratikshinde55/Docker-Compose/assets/145910708/391dcbe0-afc5-4863-b35e-0d9102d433d2)
 
-
-This is code written in yaml language:
-
-   
+This is code written in yaml language: (docker-compose DSL is Yaml) 
 
  ![Screenshot 2023-10-12 171507](https://github.com/Pratikshinde55/Docker-Compose/assets/145910708/7f114fdf-977b-4157-ad34-78e93cb0c17f)
 
@@ -49,13 +50,11 @@ To view docker-compose file:
 
 ![Screenshot 2023-10-12 171551](https://github.com/Pratikshinde55/Docker-Compose/assets/145910708/e644a6d9-fed6-4c49-b75e-15d49303a1a7)
 
+our Three-tier architecture created with the help Of Docker-compose 
 
-our three-tier architecture created with the help Of Docker-compose 
+To Run Docker-compose file the command is:
 
-To Run Docker-compose file .. we used
-
-
-          #docker-compose up -d
+     docker-compose up -d
           
  we use detached because it helps us to run or launch container in background
  
