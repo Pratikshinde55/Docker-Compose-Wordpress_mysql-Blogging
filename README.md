@@ -23,8 +23,8 @@ docker-compose standalone install Link- [Docker-compose-download-link](https://d
 
 docker-compose download command:
 
-   curl -SL https://github.com/docker/compose/releases/download/v2.20.3/docker-compose-linux-x86_64 -o /usr/local/bin/docker-compose
-   chmod +x /usr/local/bin/docker-compose
+    curl -SL https://github.com/docker/compose/releases/download/v2.20.3/docker-compose-linux-x86_64 -o /usr/local/bin/docker-compose
+    chmod +x /usr/local/bin/docker-compose
        
      
 ![Screenshot 2023-10-12 150659](https://github.com/Pratikshinde55/Docker-Compose/assets/145910708/e007dc29-98d1-4ae7-9a3b-f5e2dea0fc9f)
