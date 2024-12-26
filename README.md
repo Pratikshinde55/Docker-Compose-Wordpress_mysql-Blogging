@@ -1,5 +1,7 @@
-# Global Blogging Made Easy with Docker and WordPress
-Set-up:
+# Three-tier Architecture of Blogging site(WordPress, MySQL, Docker network) using Docker Automation that docker-compose.
+Global Blogging Made Easy with Docker and WordPress.
+
+- Set-up:
 
 I use AWS EC2 Instance(AMI- Amazon linux) as Operating System for Docker and then i Install docker-compose on it.
 
