@@ -2,7 +2,7 @@
 Create EC2 instance
 
 ## Step: 1 [Install docker-compose]
-Docker-comopse work on Docker engine , so we need to install docker & start docker services
+- Docker-comopse work on Docker Engine, So we need to install Docker & Start Docker Services
 
 Install Docker Command:
 
