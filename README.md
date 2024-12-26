@@ -1,5 +1,7 @@
 # Global Blogging Made Easy with Docker and WordPress
-Create EC2 instance
+Set-up:
+
+I use AWS EC2 Instance(AMI- Amazon linux) as Operating System for Docker and then i Install docker-compose on it.
 
 ## Step: 1 [Install Docker & start Docker Service]
 Docker-comopse work on Docker Engine, So we need to install Docker & Start Docker Services
