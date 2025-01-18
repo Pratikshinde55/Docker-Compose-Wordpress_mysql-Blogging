@@ -25,3 +25,10 @@ services:
      - WORDPRESS_DB_USER=pratik
      - WORDPRESS_DB_PASSWORD=redhat
      - WORDPRESS_DB_NAME=blogdb
+
+networks:
+  psnet:
+    driver: bridge  
+    ipam:
+      config:
+        - subnet: "15.0.2.0/24"  
