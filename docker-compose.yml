@@ -1,3 +1,4 @@
+# "services" and "netwoks" in same line syntax:
 services:
   db:
      image: mysql
